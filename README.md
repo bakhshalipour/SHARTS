@@ -1,11 +1,25 @@
 # SHARTS
-An engine for simulating various real-time scheduling algorithms (e.g., EDF, Rate-Monotonic). 
 
-The simulator takes tasks as input and starts to simulate them with a user-specified scheduling algorithm. 
-The software is coded for two operating systems: Android and Windows.
-The Android app provides rich GUI, but Windows does not. 
+This project provides a simulation framework, named **SHARTS**, for evaluating various real-time scheduling algorithms (e.g., [EDF](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)). 
 
-Most of the algorithms are obtained from the following book:
-Buttazzo, Giorgio C. Hard real-time computing systems: predictable scheduling algorithms and applications. Vol. 24. Springer Science & Business Media, 2011.
+Numerous real-time scheduling algorithms are described in [Buttazzo's book](http://www.springer.com/gp/book/9781461406754) and most of them are implemented in this simulator. Meanwhile, the source code can be easily extended to support further algorithms. 
 
-I release both codes relevant to Android and Windows. Actually, the project was started with C# and specific for Windows. Then, I converted the code from C# to Java then imported Android libraries.
+Two implementations are released for the simulator. While both are functionally same, they target different operating systems. One implementation is code in C# and is specific for Windows. No GUI is supported for this version. Another one is coded in Java and targets Android with rich GUI comfort. 
+
+Please refer to [User's Manual](https://github.com/bakhshalipour/SHARTS/blob/master/SHARTS-UserGuide.pdf) for more information.
+
+## License
+    Copyright © 2014-2018 Mohammad Bakhshalipour
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See
+    the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see {http://www.gnu.org/licenses/}.
