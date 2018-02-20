@@ -2,9 +2,9 @@
 
 This project provides a simulation framework, named **SHARTS**, for evaluating various real-time scheduling algorithms (e.g., [EDF](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)). 
 
-Numerous real-time scheduling algorithms are described in [Buttazzo's book](http://www.springer.com/gp/book/9781461406754) and most of them are implemented in this simulator. Meanwhile, the source code can be easily extended to support further algorithms. 
+Numerous real-time scheduling algorithms are described in [Buttazzo's book](http://www.springer.com/gp/book/9781461406754), and most of them are implemented in this simulator. Meanwhile, the source code can be easily extended to support further algorithms. 
 
-Two implementations are released for the simulator. While both are functionally same, they target different operating systems. One implementation is code in C# and is specific for Windows. No GUI is supported for this version. Another one is coded in Java and targets Android with rich GUI comfort. 
+Two implementations are released for the simulator. While both are functionally same, they target different operating systems. One implementation is code in C# and is specific for Windows. No GUI is supported for this version. Another one is coded in Java and targets Android with opulent GUI comfort. 
 
 Please refer to [User's Manual](https://github.com/bakhshalipour/SHARTS/blob/master/SHARTS-UserGuide.pdf) for more information.
 
